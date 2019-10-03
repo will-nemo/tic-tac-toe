@@ -1,6 +1,6 @@
 {
   "name": "tic-tac-toe-app",
-  "homepage": "http://will-nemo.github.io/tic-tac-toe",
+  "homepage": "http://will-nemo.github.io/tic-tac-toe-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
