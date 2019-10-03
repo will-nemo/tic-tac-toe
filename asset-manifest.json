@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/static/css/main.572bf598.chunk.css",
-    "main.js": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/static/js/main.f6755710.chunk.js",
-    "main.js.map": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/static/js/main.f6755710.chunk.js.map",
-    "runtime-main.js": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/static/js/runtime-main.7a39fa18.js",
-    "runtime-main.js.map": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/static/js/runtime-main.7a39fa18.js.map",
-    "static/js/2.913c7fbe.chunk.js": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/static/js/2.913c7fbe.chunk.js",
-    "static/js/2.913c7fbe.chunk.js.map": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/static/js/2.913c7fbe.chunk.js.map",
-    "index.html": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/index.html",
-    "precache-manifest.feb0bf211e97e64b187fd61c9c4e6515.js": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/precache-manifest.feb0bf211e97e64b187fd61c9c4e6515.js",
-    "service-worker.js": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/service-worker.js",
-    "static/css/main.572bf598.chunk.css.map": "%7Bwill-nemo%7D.github.io/%7Btic-tac-toe%7D/static/css/main.572bf598.chunk.css.map"
+    "main.css": "/tic-tac-toe/static/css/main.572bf598.chunk.css",
+    "main.js": "/tic-tac-toe/static/js/main.4e44a5e1.chunk.js",
+    "main.js.map": "/tic-tac-toe/static/js/main.4e44a5e1.chunk.js.map",
+    "runtime-main.js": "/tic-tac-toe/static/js/runtime-main.a03e6a91.js",
+    "runtime-main.js.map": "/tic-tac-toe/static/js/runtime-main.a03e6a91.js.map",
+    "static/js/2.913c7fbe.chunk.js": "/tic-tac-toe/static/js/2.913c7fbe.chunk.js",
+    "static/js/2.913c7fbe.chunk.js.map": "/tic-tac-toe/static/js/2.913c7fbe.chunk.js.map",
+    "index.html": "/tic-tac-toe/index.html",
+    "precache-manifest.64baa28826ed9651235d305906f30372.js": "/tic-tac-toe/precache-manifest.64baa28826ed9651235d305906f30372.js",
+    "service-worker.js": "/tic-tac-toe/service-worker.js",
+    "static/css/main.572bf598.chunk.css.map": "/tic-tac-toe/static/css/main.572bf598.chunk.css.map"
   }
 }
