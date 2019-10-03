@@ -53,9 +53,11 @@ export default function GameBoard() {
       let temp = gameBoardBoxes.slice();
       temp.splice(selectedIndex, 1, {hasValue: true, isFinal: true, icon: <FaTimes id="timesIcon"/>, user: "User"});
       setGameBoardBoxes(temp);
-      setCurrentUser("Computer");
-      computerMakesPick(temp);
-      gameFinishedCheck(temp);
+
+      if (!gameFinishedCheck(temp)) {
+        setCurrentUser("Computer");
+        computerMakesPick(temp);
+      }
     }
   }
 
@@ -69,7 +71,6 @@ export default function GameBoard() {
           temp.splice(index, 1, {hasValue: true, isFinal: true, icon: <FaCircleNotch id="timesIcon"/>, user: "Computer"});
           pick = index;
           setGameBoardBoxes(temp);
-          setCurrentUser("User");
         }
         counter++;
       }
@@ -77,11 +78,13 @@ export default function GameBoard() {
       if (pick == null && counter > 8) {
         setGameTied(true);
       }
-      gameFinishedCheck(temp);
+      if (!gameFinishedCheck(temp)) {
+        setCurrentUser("User");
+      }
     }
   }
 
-  async function gameFinishedCheck(temp) {
+  function gameFinishedCheck(temp) {
     let user = "";
     let winner = null;
     for (let i = 0; i < temp.length; i++) {
@@ -154,8 +157,10 @@ export default function GameBoard() {
     }
 
     if(winner !== null) {
-      await setGameWinner(winner);
+      setGameWinner(winner);
+      return true;
     }
+    return false;
   }
 
   function checkOneRow(temp, i, val1, val2, val3) {
